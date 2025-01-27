@@ -1,0 +1,6 @@
+- name: installing Nginx
+    hosts: local
+    connection: local
+    become: yes
+    roles:
+    - nginx
